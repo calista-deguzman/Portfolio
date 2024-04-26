@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #0D1C39;
+    height: 6076px;
+    width: 1024;
+}
+
+#main-container {
+    background-color: bisque;
+    width: 1024px;
+    height: 6076px;
+    border: solid 1px black;
+
+}
+
+h1 {
+    font-family: fantasy;
+}
