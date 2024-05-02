@@ -2,19 +2,45 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color: #0D1C39;
+    flex-direction: row;
+    background-color: #ffffff;
     height: 6076px;
     width: 1024;
 }
 
 #main-container {
-    background-color: bisque;
+    padding: 0px;
+    background-color: #3953A5;
     width: 1024px;
-    height: 6076px;
-    border: solid 1px black;
+
+ 
+}
+#headerbox {
+    background-color: #3953A5;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    
+}
+#secondbox {
+    background-color: #0D1C39;
+    height: 545px;
+}
+#logo {
+    margin-top: 20px;
+    height: 350px;
+}
+h1 {
+    color: white;
+    font-size: 72px;
+    font-family: marker felt;
 
 }
-
-h1 {
-    font-family: fantasy;
+#thirdbox {
+    background-color: #3953A5;
+    height: 62px;
+}
+#navigation {
+    
 }
