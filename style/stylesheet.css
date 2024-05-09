@@ -26,21 +26,55 @@ body {
 #secondbox {
     background-color: #0D1C39;
     height: 545px;
+    font-size: 72px;
 }
 #logo {
     margin-top: 20px;
     height: 350px;
+    justify-content: center;
 }
-h1 {
+#CALISTA {
+   display: flex;
     color: white;
-    font-size: 72px;
     font-family: marker felt;
-
-}
-#thirdbox {
-    background-color: #3953A5;
-    height: 62px;
+    font-size: 72px;
+    justify-content: center;
 }
 #navigation {
+    background-color: #3953A5;
+    height: 62px;
+    display: flex;
+}
+ul {
+    display: flex;
+    font-family: marker felt;
+    justify-content: space-around;
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 21px;
+    margin-top: 10px;
     
+}
+#aboutme {
+    display: flex;
+    background-color: #C9D7ED;
+    height: 1115px;
+    flex-flow: column;
+}
+#titleaboutme {
+    font-family: marker felt;
+    margin-left: 45px;
+    margin-top: 25px;
+    color: #0D1C39;
+    font-size: 40px;
+}
+#bio {
+    font-family: arial rounded mt bold;
+    display: flex;
+    color: #0D1C39;
+    margin-left: 45px;
+    margin-top: 0px;
+    width: 543px;
+    justify-content: left
 }
