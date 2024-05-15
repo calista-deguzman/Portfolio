@@ -60,7 +60,9 @@ ul {
     display: flex;
     background-color: #C9D7ED;
     height: 1115px;
-    flex-flow: column;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 #titleaboutme {
     font-family: marker felt;
@@ -68,6 +70,8 @@ ul {
     margin-top: 25px;
     color: #0D1C39;
     font-size: 40px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 #bio {
     font-family: arial rounded mt bold;
@@ -75,6 +79,57 @@ ul {
     color: #0D1C39;
     margin-left: 45px;
     margin-top: 0px;
-    width: 543px;
-    justify-content: left
+    width: 500px;
+    flex-flow: row;
+}
+#photoofme {
+    display: flex;
+    width: 391px;
+    height: 500px;
+    margin-top: 25px;
+    flex-flow: row;
+}
+#contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 45px;
+    font-family: marker felt;
+    color: #0D1C39;
+}
+#contact {
+    display: flex;
+    margin-left: 45px;
+    font-family: arial rounded mt bold;
+}
+#number {
+    display: flex;
+    margin-left: 45px;
+    font-family: arial rounded mt bold;
+}
+#personality {
+    display: flex;
+    flex-direction: column;
+}
+#mbti {
+    display: flex;
+    margin-left: 45px;
+    flex-direction: column;
+    font-family: marker felt;
+    justify-content: right;
+    margin-top: 0px;
+    margin-left: 45px;
+    margin-right: 650px;
+    color: #0D1C39;
+}
+#mbtipic {
+    height: 366px;
+    display: flex;
+    justify-content: left;
+    margin-left: 45px;
+}
+#mbtipara {
+    display: flex;
+    flex-direction: row;
+    font-family: arial rounded mt bold;
 }
