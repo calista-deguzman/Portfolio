@@ -44,10 +44,10 @@ body {
     background-color: #3953A5;
     height: 62px;
     display: flex;
+    font-family: marker felt;
 }
 ul {
     display: flex;
-    font-family: marker felt;
     justify-content: space-around;
     width: 100%;
     color: #ffffff;
@@ -111,25 +111,67 @@ ul {
     display: flex;
     flex-direction: column;
 }
+#mbtiinfo {
+    margin-left: 45px;
+}
 #mbti {
     display: flex;
-    margin-left: 45px;
     flex-direction: column;
     font-family: marker felt;
-    justify-content: right;
     margin-top: 0px;
-    margin-left: 45px;
-    margin-right: 650px;
     color: #0D1C39;
 }
 #mbtipic {
     height: 366px;
     display: flex;
-    justify-content: left;
-    margin-left: 45px;
 }
 #mbtipara {
     display: flex;
     flex-direction: row;
     font-family: arial rounded mt bold;
+}
+#boxone {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+.quote {
+    font-family: arial rounded mt bold;
+    font-size: 24px;
+}
+#studentlife {
+    height: 666px;
+    display: flex;
+    justify-content: top;
+    background-color: #B6CEDF;
+    flex-direction: column;
+}
+.student {
+    font-family: marker felt;
+    margin-top: 33px;
+    margin-left: 45px;
+    font-size: 40px;
+
+}
+.studentbio {
+    margin-left: 45px;
+    font-family: arial rounded mt bold;
+}
+.studentbiolist {
+    flex-wrap: wrap;
+}
+.list {
+    font-family: arial rounded mt bold;
+    display: flex;
+    color: black;
+    font-size: 17px;
+}
+.photoofcab {
+    width: 685px;
+    height: 328px;
+}
+.cablogo {
+    height: 328px;
+    width: 203px;
+    margin-left: 50px;
 }
