@@ -44,9 +44,9 @@ body {
     background-color: #3953A5;
     height: 62px;
     display: flex;
-    font-family: marker felt;
+    
 }
-ul {
+#nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -54,6 +54,7 @@ ul {
     padding: 10px;
     font-size: 21px;
     margin-top: 10px;
+    font-family: marker felt;
     
 }
 #aboutme {
@@ -160,12 +161,6 @@ ul {
 .studentbiolist {
     flex-wrap: wrap;
 }
-.list {
-    font-family: arial rounded mt bold;
-    display: flex;
-    color: black;
-    font-size: 17px;
-}
 .photoofcab {
     width: 685px;
     height: 328px;
@@ -174,4 +169,97 @@ ul {
     height: 328px;
     width: 203px;
     margin-left: 50px;
+}
+#athletelife {
+    background-color: #DCE9F3;
+    display: flex;
+    height: 1460px;
+    margin-top: 0px;
+    flex-flow: column;
+    
+}
+.athletetitle {
+    font-family: marker felt;
+    font-size: 40px;
+    margin-top: 69px;
+    margin-left: 45px;
+}
+.tkd {
+   display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: arial rounded mt bold;
+}
+#tkdimgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+.tkdimgone {
+    height: 340px; 
+}
+.tkdimgtwo {
+    height: 539px;
+}
+.tkdimgthree {
+    height: 629px;
+}
+.tkdimgfour {
+    height: 438px;
+}
+#groupone {
+width: 519px;
+display: flex;
+flex-direction: column;
+}
+#grouptwo {
+    display: flex;
+    flex-direction: column;
+    width: 406px;
+    
+}
+#personallife {
+    background-color: #C9D7ED;
+    display: flex;
+    height: 1900px;
+    margin-top: 0px;
+    flex-direction: column;
+}
+.personaltitle {
+size: 30px;
+font-family: marker felt;
+margin-top: 48px;
+margin-left: 45px;
+}
+.personal {
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: arial rounded mt bold;
+}
+#personalimgs {
+    display: flex;
+    flex-direction: row;
+    
+}
+.beach {
+    height: 312px;
+    width: 234px;
+    margin-left: 45px;
+}
+.egg {
+  height: 312px;
+  width: 237px;
+}
+.dogs {
+    width: 437px;
+    height: 312px;
+}
+#travel {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.traveltitle {
+    font-family: marker felt;
 }
