@@ -4,7 +4,7 @@ body {
     justify-content: center;
     flex-direction: row;
     background-color: #ffffff;
-    height: 6076px;
+    height: 5000px;
     width: 1024;
 }
 
@@ -223,7 +223,7 @@ flex-direction: column;
 #personallife {
     background-color: #C9D7ED;
     display: flex;
-    height: 1900px;
+    height: 1400px;
     margin-top: 0px;
     flex-direction: column;
 }
@@ -262,4 +262,55 @@ margin-left: 45px;
 }
 .traveltitle {
     font-family: marker felt;
+}
+#travel {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.traveltitle {
+    font-family: marker felt;
+}
+
+.travelparagraph {
+    font-family: arial rounded mt bold;
+}
+#travelpics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.countries {
+    display: flex;
+    margin-left: 45px;
+    width: 270px;
+    font-family: arial rounded mt bold;
+    flex-direction: column;
+    font-size: larger;
+}
+.sweden {
+    height: 407px;
+
+}
+.brazil {
+    width: 306px;
+    height: 407px;
+}
+#travelone {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.costa {
+margin-left: 60px;
+width: 600px;
+height: 265px;
+margin-top: 0px;
+}
+#traveltwo {
+    display: flex;
+    flex-direction: row;
+}
+.swedentwo {
+    width: 324px;
+    height: 265px;
 }
