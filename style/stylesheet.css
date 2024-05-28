@@ -29,8 +29,8 @@ body {
     font-size: 72px;
 }
 #logo {
-    margin-top: 20px;
     height: 350px;
+    display: flex;
     justify-content: center;
 }
 #CALISTA {
@@ -60,7 +60,7 @@ body {
 #aboutme {
     display: flex;
     background-color: #C9D7ED;
-    height: 1115px;
+    height: 1050px;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -90,6 +90,9 @@ body {
     margin-top: 25px;
     flex-flow: row;
 }
+#contactbox {
+    margin-top: 105px;
+}
 #contactinfo {
     display: flex;
     flex-direction: column;
@@ -97,16 +100,19 @@ body {
     margin-left: 45px;
     font-family: marker felt;
     color: #0D1C39;
+    font-size: 40px;
 }
 #contact {
     display: flex;
     margin-left: 45px;
     font-family: arial rounded mt bold;
+    font-size: 30px;
 }
 #number {
     display: flex;
     margin-left: 45px;
     font-family: arial rounded mt bold;
+    font-size: 30px;
 }
 #personality {
     display: flex;
@@ -141,10 +147,10 @@ body {
     font-size: 24px;
 }
 #studentlife {
-    height: 666px;
+    height: 610px;
     display: flex;
     justify-content: top;
-    background-color: #B6CEDF;
+    background-color: #C9D7ED;
     flex-direction: column;
 }
 .student {
@@ -171,7 +177,7 @@ body {
     margin-left: 50px;
 }
 #athletelife {
-    background-color: #DCE9F3;
+    background-color: #C9D7ED;
     display: flex;
     height: 1460px;
     margin-top: 0px;
