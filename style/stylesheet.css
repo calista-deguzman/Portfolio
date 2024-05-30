@@ -45,6 +45,7 @@ body {
     height: 62px;
     display: flex;
     
+    
 }
 #nav {
     display: flex;
@@ -320,3 +321,15 @@ margin-top: 0px;
     width: 324px;
     height: 265px;
 }
+#back {
+    font-size: 21px;
+    font-family: marker felt;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+a:visited {
+    color: white;
+    /* text-decoration-color: hotpink; */
+  }
+  
